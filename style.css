@@ -1,0 +1,40 @@
+.moon {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+}
+.grey {
+    height: 100px;
+    width: 30%;
+    background-color: grey;
+    margin: 10px;
+    z-index: 2;
+    position:relative;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.middle {
+    height: 450px;
+    background-color: grey;
+    margin: 10px;
+    align-items: center;
+}
+.walk {
+    background-color: black;
+    height: 50px;
+    width: 500px;
+    margin: 5px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+@media ( min-width: 430px) {}
